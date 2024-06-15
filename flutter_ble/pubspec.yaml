@@ -30,6 +30,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  tflite_flutter: ^0.10.1
+  restart_app: ^1.2.1
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -37,6 +39,8 @@ dependencies:
   cupertino_icons: ^1.0.6
   flutter_blue_plus: ^1.32.1
   provider: ^6.1.2
+  http: ^1.2.1
+  flutter_background: ^1.2.0
 
 dev_dependencies:
   flutter_test:
@@ -61,7 +65,8 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
+  assets:
+    - assets/
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
 

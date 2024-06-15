@@ -13,6 +13,14 @@
     <!-- Android 9 이하 버전을 위한 레거시 위치 권한 -->
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" android:maxSdkVersion="28" />
 
+    <!-- 서버 네트워크 설정 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- 백그라운드 서비스 권한 -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+
     <application
         android:label="flutter_ble"
         android:name="${applicationName}"
